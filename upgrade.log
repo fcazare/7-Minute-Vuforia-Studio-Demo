@@ -1,0 +1,188 @@
+[2020-08-19T19:59:31.006Z] debug: [twx-studio:upgrade:AR_Template] Begin upgrade of project
+[2020-08-19T19:59:31.007Z] info: [twx-studio:upgrade:AR_Template] Upgrading project
+[2020-08-19T19:59:31.012Z] debug: [twx-studio:upgrade:AR_Template] Make sure there are not any stale files lying around
+[2020-08-19T19:59:31.013Z] debug: [twx-studio:upgrade:AR_Template] Create .gitignore for project dir
+[2020-08-19T19:59:31.014Z] debug: [twx-studio:upgrade:AR_Template] Copying /src/**/* to project, overwrite=false
+[2020-08-19T19:59:31.016Z] debug: [twx-studio:upgrade:AR_Template] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2020-08-19T19:59:31.122Z] debug: [twx-studio:upgrade:AR_Template] Copy of project files complete
+[2020-08-19T19:59:31.122Z] debug: [twx-studio:upgrade:AR_Template] Updating version to 
+[2020-08-19T19:59:31.122Z] debug: [twx-studio:upgrade:AR_Template] onupgrade sucessful, now build the project
+[2020-08-19T19:59:31.123Z] debug: [twx-studio:upgrade:AR_Template] BEGIN buildApp
+[2020-08-19T19:59:31.123Z] debug: [twx-studio:upgrade:AR_Template] write settings
+[2020-08-19T19:59:31.124Z] debug: [twx-studio:upgrade:AR_Template] copy runtime extensions
+[2020-08-19T19:59:31.443Z] debug: [twx-studio:upgrade:AR_Template] packageThemeSet
+[2020-08-19T19:59:32.952Z] debug: [twx-studio:upgrade:AR_Template] onBuild
+[2020-08-19T19:59:32.952Z] info: [twx-studio:upgrade:AR_Template] Building ves-ar-extension app:
+[2020-08-19T19:59:32.975Z] debug: [twx-studio:upgrade:AR_Template] pathDir
+[2020-08-19T19:59:32.975Z] debug: [twx-studio:upgrade:AR_Template] scaffoldDir
+[2020-08-19T19:59:32.975Z] debug: [twx-studio:upgrade:AR_Template] copySrc
+[2020-08-19T19:59:33.267Z] debug: [twx-studio:upgrade:AR_Template] buildApp
+[2020-08-19T19:59:33.454Z] debug: [twx-studio:upgrade:AR_Template] END buildApp
+[2020-08-19T19:59:33.455Z] debug: [twx-studio:upgrade:AR_Template] Build succeeded.
+
+2020-08-21T18:47:13.240Z: Project "AR_Template" saved as new project "DemoTemplate"[2020-08-21T18:47:26.268Z] debug: [twx-studio:upgrade:DemoTemplate] Begin upgrade of project
+[2020-08-21T18:47:26.270Z] info: [twx-studio:upgrade:DemoTemplate] Upgrading project
+[2020-08-21T18:47:26.276Z] debug: [twx-studio:upgrade:DemoTemplate] Make sure there are not any stale files lying around
+[2020-08-21T18:47:26.277Z] debug: [twx-studio:upgrade:DemoTemplate] Removing 
+[2020-08-21T18:47:26.310Z] debug: [twx-studio:upgrade:DemoTemplate] Create .gitignore for project dir
+[2020-08-21T18:47:26.313Z] debug: [twx-studio:upgrade:DemoTemplate] Copying /src/**/* to project, overwrite=false
+[2020-08-21T18:47:26.318Z] debug: [twx-studio:upgrade:DemoTemplate] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2020-08-21T18:47:26.474Z] debug: [twx-studio:upgrade:DemoTemplate] Copy of project files complete
+[2020-08-21T18:47:26.474Z] debug: [twx-studio:upgrade:DemoTemplate] Updating version to 
+[2020-08-21T18:47:26.474Z] debug: [twx-studio:upgrade:DemoTemplate] onupgrade sucessful, now build the project
+[2020-08-21T18:47:26.474Z] debug: [twx-studio:upgrade:DemoTemplate] BEGIN buildApp
+[2020-08-21T18:47:26.475Z] debug: [twx-studio:upgrade:DemoTemplate] write settings
+[2020-08-21T18:47:26.475Z] debug: [twx-studio:upgrade:DemoTemplate] copy runtime extensions
+[2020-08-21T18:47:26.724Z] debug: [twx-studio:upgrade:DemoTemplate] packageThemeSet
+[2020-08-21T18:47:28.525Z] debug: [twx-studio:upgrade:DemoTemplate] onBuild
+[2020-08-21T18:47:28.525Z] info: [twx-studio:upgrade:DemoTemplate] Building ves-ar-extension app:
+[2020-08-21T18:47:28.552Z] debug: [twx-studio:upgrade:DemoTemplate] pathDir
+[2020-08-21T18:47:28.552Z] debug: [twx-studio:upgrade:DemoTemplate] scaffoldDir
+[2020-08-21T18:47:28.552Z] debug: [twx-studio:upgrade:DemoTemplate] copySrc
+[2020-08-21T18:47:28.823Z] debug: [twx-studio:upgrade:DemoTemplate] buildApp
+[2020-08-21T18:47:29.036Z] debug: [twx-studio:upgrade:DemoTemplate] END buildApp
+[2020-08-21T18:47:29.037Z] debug: [twx-studio:upgrade:DemoTemplate] Build succeeded.
+[2020-09-02T15:53:55.238Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Begin upgrade of project
+[2020-09-02T15:53:55.239Z] info: [twx-studio:upgrade:DemoTemplate__3_] Upgrading project
+[2020-09-02T15:53:55.280Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Make sure there are not any stale files lying around
+[2020-09-02T15:53:55.281Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2020-09-02T15:53:55.299Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Create .gitignore for project dir
+[2020-09-02T15:53:55.300Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Copying /src/**/* to project, overwrite=false
+[2020-09-02T15:53:55.310Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2020-09-02T15:53:55.410Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Copy of project files complete
+[2020-09-02T15:53:55.410Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Updating version to 
+[2020-09-02T15:53:55.410Z] debug: [twx-studio:upgrade:DemoTemplate__3_] onupgrade sucessful, now build the project
+[2020-09-02T15:53:55.410Z] debug: [twx-studio:upgrade:DemoTemplate__3_] BEGIN buildApp
+[2020-09-02T15:53:55.411Z] debug: [twx-studio:upgrade:DemoTemplate__3_] write settings
+[2020-09-02T15:53:55.411Z] debug: [twx-studio:upgrade:DemoTemplate__3_] copy runtime extensions
+[2020-09-02T15:53:56.966Z] debug: [twx-studio:upgrade:DemoTemplate__3_] packageThemeSet
+[2020-09-02T15:53:57.844Z] debug: [twx-studio:upgrade:DemoTemplate__3_] onBuild
+[2020-09-02T15:53:57.844Z] info: [twx-studio:upgrade:DemoTemplate__3_] Building ves-ar-extension app:
+[2020-09-02T15:53:57.968Z] debug: [twx-studio:upgrade:DemoTemplate__3_] pathDir
+[2020-09-02T15:53:57.968Z] debug: [twx-studio:upgrade:DemoTemplate__3_] scaffoldDir
+[2020-09-02T15:53:57.968Z] debug: [twx-studio:upgrade:DemoTemplate__3_] copySrc
+[2020-09-02T15:53:58.132Z] debug: [twx-studio:upgrade:DemoTemplate__3_] buildApp
+[2020-09-02T15:53:58.519Z] debug: [twx-studio:upgrade:DemoTemplate__3_] END buildApp
+[2020-09-02T15:53:58.520Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Build succeeded.
+[2020-09-03T16:30:57.343Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Begin upgrade of project
+[2020-09-03T16:30:57.345Z] info: [twx-studio:upgrade:DemoTemplate__3_] Upgrading project
+[2020-09-03T16:30:57.351Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Make sure there are not any stale files lying around
+[2020-09-03T16:30:57.352Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2020-09-03T16:30:57.359Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2020-09-03T16:30:57.464Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2020-09-03T16:30:57.490Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2020-09-03T16:30:57.517Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2020-09-03T16:30:57.523Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Copying /src/**/* to project, overwrite=false
+[2020-09-03T16:30:57.525Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2020-09-03T16:30:57.608Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Copy of project files complete
+[2020-09-03T16:30:57.609Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Updating version to 
+[2020-09-03T16:30:57.609Z] debug: [twx-studio:upgrade:DemoTemplate__3_] onupgrade sucessful, now build the project
+[2020-09-03T16:30:57.609Z] debug: [twx-studio:upgrade:DemoTemplate__3_] BEGIN buildApp
+[2020-09-03T16:30:57.609Z] debug: [twx-studio:upgrade:DemoTemplate__3_] write settings
+[2020-09-03T16:30:57.610Z] debug: [twx-studio:upgrade:DemoTemplate__3_] copy runtime extensions
+[2020-09-03T16:30:57.780Z] debug: [twx-studio:upgrade:DemoTemplate__3_] packageThemeSet
+[2020-09-03T16:30:58.782Z] debug: [twx-studio:upgrade:DemoTemplate__3_] onBuild
+[2020-09-03T16:30:58.782Z] info: [twx-studio:upgrade:DemoTemplate__3_] Building ves-ar-extension app:
+[2020-09-03T16:30:58.800Z] debug: [twx-studio:upgrade:DemoTemplate__3_] pathDir
+[2020-09-03T16:30:58.800Z] debug: [twx-studio:upgrade:DemoTemplate__3_] scaffoldDir
+[2020-09-03T16:30:58.801Z] debug: [twx-studio:upgrade:DemoTemplate__3_] copySrc
+[2020-09-03T16:30:58.992Z] debug: [twx-studio:upgrade:DemoTemplate__3_] buildApp
+[2020-09-03T16:30:59.300Z] debug: [twx-studio:upgrade:DemoTemplate__3_] END buildApp
+[2020-09-03T16:30:59.300Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Build succeeded.
+[2020-10-12T13:42:26.673Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Begin upgrade of project
+[2020-10-12T13:42:26.674Z] info: [twx-studio:upgrade:DemoTemplate__3_] Upgrading project
+[2020-10-12T13:42:26.709Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Make sure there are not any stale files lying around
+[2020-10-12T13:42:26.710Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2020-10-12T13:42:26.717Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2020-10-12T13:42:26.823Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2020-10-12T13:42:26.845Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2020-10-12T13:42:26.865Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2020-10-12T13:42:26.870Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Copying /src/**/* to project, overwrite=false
+[2020-10-12T13:42:26.876Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2020-10-12T13:42:26.958Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Copy of project files complete
+[2020-10-12T13:42:26.958Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Updating version to 
+[2020-10-12T13:42:26.958Z] debug: [twx-studio:upgrade:DemoTemplate__3_] onupgrade sucessful, now build the project
+[2020-10-12T13:42:26.958Z] debug: [twx-studio:upgrade:DemoTemplate__3_] BEGIN buildApp
+[2020-10-12T13:42:26.958Z] debug: [twx-studio:upgrade:DemoTemplate__3_] write settings
+[2020-10-12T13:42:26.959Z] debug: [twx-studio:upgrade:DemoTemplate__3_] copy runtime extensions
+[2020-10-12T13:42:28.347Z] debug: [twx-studio:upgrade:DemoTemplate__3_] packageThemeSet
+[2020-10-12T13:42:29.230Z] debug: [twx-studio:upgrade:DemoTemplate__3_] onBuild
+[2020-10-12T13:42:29.230Z] info: [twx-studio:upgrade:DemoTemplate__3_] Building ves-ar-extension app:
+[2020-10-12T13:42:29.250Z] debug: [twx-studio:upgrade:DemoTemplate__3_] pathDir
+[2020-10-12T13:42:29.250Z] debug: [twx-studio:upgrade:DemoTemplate__3_] scaffoldDir
+[2020-10-12T13:42:29.250Z] debug: [twx-studio:upgrade:DemoTemplate__3_] copySrc
+[2020-10-12T13:42:29.402Z] debug: [twx-studio:upgrade:DemoTemplate__3_] buildApp
+[2020-10-12T13:42:29.652Z] debug: [twx-studio:upgrade:DemoTemplate__3_] END buildApp
+[2020-10-12T13:42:29.652Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Build succeeded.
+[2020-12-01T17:42:39.089Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Begin upgrade of project
+[2020-12-01T17:42:39.091Z] info: [twx-studio:upgrade:DemoTemplate__3_] Upgrading project
+[2020-12-01T17:42:39.128Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Make sure there are not any stale files lying around
+[2020-12-01T17:42:39.129Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2020-12-01T17:42:39.135Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2020-12-01T17:42:39.252Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2020-12-01T17:42:39.277Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2020-12-01T17:42:39.294Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2020-12-01T17:42:39.300Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Copying /src/**/* to project, overwrite=false
+[2020-12-01T17:42:39.309Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2020-12-01T17:42:39.413Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Copy of project files complete
+[2020-12-01T17:42:39.414Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Updating version to 
+[2020-12-01T17:42:39.414Z] debug: [twx-studio:upgrade:DemoTemplate__3_] onupgrade sucessful, now build the project
+[2020-12-01T17:42:39.414Z] debug: [twx-studio:upgrade:DemoTemplate__3_] BEGIN buildApp
+[2020-12-01T17:42:39.414Z] debug: [twx-studio:upgrade:DemoTemplate__3_] write settings
+[2020-12-01T17:42:39.415Z] debug: [twx-studio:upgrade:DemoTemplate__3_] copy runtime extensions
+[2020-12-01T17:42:40.441Z] debug: [twx-studio:upgrade:DemoTemplate__3_] packageThemeSet
+[2020-12-01T17:42:41.396Z] debug: [twx-studio:upgrade:DemoTemplate__3_] onBuild
+[2020-12-01T17:42:41.396Z] info: [twx-studio:upgrade:DemoTemplate__3_] Building ves-ar-extension app:
+[2020-12-01T17:42:41.529Z] debug: [twx-studio:upgrade:DemoTemplate__3_] pathDir
+[2020-12-01T17:42:41.529Z] debug: [twx-studio:upgrade:DemoTemplate__3_] scaffoldDir
+[2020-12-01T17:42:41.529Z] debug: [twx-studio:upgrade:DemoTemplate__3_] copySrc
+[2020-12-01T17:42:41.719Z] debug: [twx-studio:upgrade:DemoTemplate__3_] buildApp
+[2020-12-01T17:42:42.413Z] debug: [twx-studio:upgrade:DemoTemplate__3_] END buildApp
+[2020-12-01T17:42:42.413Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Build succeeded.
+[2021-01-08T13:08:10.379Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Begin upgrade of project
+[2021-01-08T13:08:10.380Z] info: [twx-studio:upgrade:DemoTemplate__3_] Upgrading project
+[2021-01-08T13:08:10.381Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Make sure there are not any stale files lying around
+[2021-01-08T13:08:10.382Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2021-01-08T13:08:10.388Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2021-01-08T13:08:10.510Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2021-01-08T13:08:10.537Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2021-01-08T13:08:10.556Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Removing 
+[2021-01-08T13:08:10.560Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Copying /src/**/* to project, overwrite=false
+[2021-01-08T13:08:10.561Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2021-01-08T13:08:10.667Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Copy of project files complete
+[2021-01-08T13:08:10.667Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Updating version to 
+[2021-01-08T13:08:10.667Z] debug: [twx-studio:upgrade:DemoTemplate__3_] onupgrade sucessful, now build the project
+[2021-01-08T13:08:10.667Z] debug: [twx-studio:upgrade:DemoTemplate__3_] BEGIN buildApp
+[2021-01-08T13:08:10.668Z] debug: [twx-studio:upgrade:DemoTemplate__3_] write settings
+[2021-01-08T13:08:10.669Z] debug: [twx-studio:upgrade:DemoTemplate__3_] copy runtime extensions
+[2021-01-08T13:08:10.852Z] debug: [twx-studio:upgrade:DemoTemplate__3_] packageThemeSet
+[2021-01-08T13:08:11.874Z] debug: [twx-studio:upgrade:DemoTemplate__3_] onBuild
+[2021-01-08T13:08:11.874Z] info: [twx-studio:upgrade:DemoTemplate__3_] Building ves-ar-extension app:
+[2021-01-08T13:08:11.894Z] debug: [twx-studio:upgrade:DemoTemplate__3_] pathDir
+[2021-01-08T13:08:11.894Z] debug: [twx-studio:upgrade:DemoTemplate__3_] scaffoldDir
+[2021-01-08T13:08:11.894Z] debug: [twx-studio:upgrade:DemoTemplate__3_] copySrc
+[2021-01-08T13:08:12.092Z] debug: [twx-studio:upgrade:DemoTemplate__3_] buildApp
+[2021-01-08T13:08:12.595Z] debug: [twx-studio:upgrade:DemoTemplate__3_] END buildApp
+[2021-01-08T13:08:12.595Z] debug: [twx-studio:upgrade:DemoTemplate__3_] Build succeeded.
+[2021-03-31T16:21:25.624Z] debug: [twx-studio:upgrade:DemoTemplateProject] Begin upgrade of project
+[2021-03-31T16:21:25.625Z] info: [twx-studio:upgrade:DemoTemplateProject] Upgrading project
+[2021-03-31T16:21:25.659Z] debug: [twx-studio:upgrade:DemoTemplateProject] Make sure there are not any stale files lying around
+[2021-03-31T16:21:25.659Z] debug: [twx-studio:upgrade:DemoTemplateProject] Removing 
+[2021-03-31T16:21:25.674Z] debug: [twx-studio:upgrade:DemoTemplateProject] Create .gitignore for project dir
+[2021-03-31T16:21:25.675Z] debug: [twx-studio:upgrade:DemoTemplateProject] Copying /src/**/* to project, overwrite=false
+[2021-03-31T16:21:25.676Z] debug: [twx-studio:upgrade:DemoTemplateProject] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2021-03-31T16:21:25.737Z] debug: [twx-studio:upgrade:DemoTemplateProject] Copy of project files complete
+[2021-03-31T16:21:25.737Z] debug: [twx-studio:upgrade:DemoTemplateProject] Updating version to 
+[2021-03-31T16:21:25.737Z] debug: [twx-studio:upgrade:DemoTemplateProject] onupgrade sucessful, now build the project
+[2021-03-31T16:21:25.737Z] debug: [twx-studio:upgrade:DemoTemplateProject] BEGIN buildApp
+[2021-03-31T16:21:25.737Z] debug: [twx-studio:upgrade:DemoTemplateProject] write settings
+[2021-03-31T16:21:25.738Z] debug: [twx-studio:upgrade:DemoTemplateProject] copy runtime extensions
+[2021-03-31T16:21:25.888Z] debug: [twx-studio:upgrade:DemoTemplateProject] packageThemeSet
+[2021-03-31T16:21:26.588Z] debug: [twx-studio:upgrade:DemoTemplateProject] onBuild
+[2021-03-31T16:21:26.588Z] info: [twx-studio:upgrade:DemoTemplateProject] Building ves-ar-extension app:
+[2021-03-31T16:21:26.696Z] debug: [twx-studio:upgrade:DemoTemplateProject] pathDir
+[2021-03-31T16:21:26.696Z] debug: [twx-studio:upgrade:DemoTemplateProject] scaffoldDir
+[2021-03-31T16:21:26.696Z] debug: [twx-studio:upgrade:DemoTemplateProject] copySrc
+[2021-03-31T16:21:26.851Z] debug: [twx-studio:upgrade:DemoTemplateProject] buildApp
+[2021-03-31T16:21:27.347Z] debug: [twx-studio:upgrade:DemoTemplateProject] END buildApp
+[2021-03-31T16:21:27.347Z] debug: [twx-studio:upgrade:DemoTemplateProject] Build succeeded.

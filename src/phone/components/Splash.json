@@ -1,0 +1,251 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "widget-name": "view-1",
+    "is-widget-container": "true",
+    "class": "RAgradient_redOrange",
+    "viewtype": "mobile-2D"
+  },
+  "children": [
+    {
+      "name": "twx-container-content",
+      "children": [
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "gridLayout-1",
+            "widget-name": "gridLayout-1",
+            "is-widget-container": "true",
+            "class": "RAgradient_redOrange"
+          },
+          "name": "twx-gridlayout",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "row-1",
+                    "widget-name": "row-1",
+                    "is-widget-container": "true",
+                    "rowheight": "10vh"
+                  },
+                  "name": "twx-row",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-1",
+                            "widget-name": "column-1",
+                            "is-widget-container": "true"
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "image-RAlogo",
+                                    "widget-name": "image-RAlogo",
+                                    "class": "RAlogo",
+                                    "imgsrc": "Uploaded/2019_RA_Logo_Bug-LeftText_white.svg"
+                                  },
+                                  "name": "twx-image2"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "row-2",
+                    "widget-name": "row-2",
+                    "is-widget-container": "true",
+                    "rowheight": "65vh"
+                  },
+                  "name": "twx-row",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-2",
+                            "widget-name": "column-2",
+                            "is-widget-container": "true",
+                            "justification": "center",
+                            "alignment": "center"
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "Project_Name",
+                                    "state-format-value": "text",
+                                    "widget-name": "Project_Name",
+                                    "text": "AR Demo Template",
+                                    "class": "a-type__title1 whiteText"
+                                  },
+                                  "name": "twx-label"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "row-3",
+                    "widget-name": "row-3",
+                    "is-widget-container": "true",
+                    "rowheight": "30vh"
+                  },
+                  "name": "twx-row",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-3",
+                            "widget-name": "column-3",
+                            "is-widget-container": "true",
+                            "alignment": "center"
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "button-1",
+                                    "widget-name": "button-1",
+                                    "text": "Model Target",
+                                    "class": "a-type__button .a-button whiteOutline"
+                                  },
+                                  "name": "twx-button",
+                                  "children": [
+                                    {
+                                      "attributes": {
+                                        "eventbind-id": "eb-1609873480951",
+                                        "source-type": "widget",
+                                        "source-label": "Button",
+                                        "source-name": "button-1",
+                                        "source-event": "click",
+                                        "handler-namespace": "app",
+                                        "handler-name": "fn",
+                                        "handler-service": "navigate",
+                                        "handler-path": "app-fn-navigate"
+                                      },
+                                      "name": "twx-eventbind",
+                                      "children": [
+                                        {
+                                          "attributes": {
+                                            "name": "viewname",
+                                            "value": "Layout_Popups"
+                                          },
+                                          "name": "twx-event-data"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-4",
+                            "widget-name": "column-4",
+                            "is-widget-container": "true",
+                            "alignment": "center"
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "button-2",
+                                    "widget-name": "button-2",
+                                    "text": "Spatial Target",
+                                    "class": "a-type__button .a-button whiteOutline"
+                                  },
+                                  "name": "twx-button",
+                                  "children": [
+                                    {
+                                      "attributes": {
+                                        "eventbind-id": "eb-1609873486418",
+                                        "source-type": "widget",
+                                        "source-label": "Button",
+                                        "source-name": "button-2",
+                                        "source-event": "click",
+                                        "handler-namespace": "app",
+                                        "handler-name": "fn",
+                                        "handler-service": "navigate",
+                                        "handler-path": "app-fn-navigate"
+                                      },
+                                      "name": "twx-eventbind",
+                                      "children": [
+                                        {
+                                          "attributes": {
+                                            "name": "viewname",
+                                            "value": "Layout_BottomControls"
+                                          },
+                                          "name": "twx-event-data"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "twx-fragment-parameters"
+    },
+    {
+      "name": "twx-view-data"
+    }
+  ],
+  "name": "twx-view"
+}

@@ -1,0 +1,369 @@
+/*******************Install RA Fonts******************/
+@font-face {font-family: 'Barlow'; font-style: normal; font-weight: 400; src: local('Barlow Regular'), local('Barlow-Regular'), url(#{$resources}/Uploaded/Barlow-Regular.woff2) format('woff2'), url(#{$resources}/Uploaded/Barlow-Regular.woff) format('woff');}
+@font-face {font-family: 'Barlow'; font-style: normal; font-weight: 500; src: local('Barlow Medium'), local('Barlow-Medium'), url(#{$resources}/Uploaded/Barlow-Medium.woff2) format('woff2'), url(#{$resources}/Uploaded/Barlow-Medium.woff) format('woff');}
+@font-face {font-family: 'Barlow'; font-style: normal; font-weight: 700; src: local('Barlow Bold'), local('Barlow-Bold'), url(#{$resources}/Uploaded/Barlow-Bold.woff2) format('woff2'), url(#{$resources}/Uploaded/Barlow-Bold.woff) format('woff');}
+
+/*******************RA Digital Color Palette******************/
+//Primary
+$RA_RED: #cd163f;
+$AB_BLUE: #003e7e;
+$FT_BLUE: #00aeef;
+
+//Secondary
+$RA_GOLD: #f9c20a;
+$RA_ORANGE: #f58025;
+$RA_GARNET: #8d0034;
+$RA_PURPLE: #770056;
+$RA_GREEN: #77c14c;
+$RA_COOL_GREY: #e1ebf4;
+$RA_TEXT: #2d2d2d;
+$RA_LINKS: #2a79c4;
+$RA_DARK_GREY: #43434d;
+$RA_MEDIUM_GREY: #6d6e71;
+$RA_LIGHT_GREY: #e5e6e9;
+$RA_WHITE: #ffffff;
+ 
+//Status
+$RA_ACTIVE: #188030;
+$RA_END_OF_LIFE: #f8c820;
+$RA_ACTIVE_MATURE: #a6db3d;
+$RA_DISCONTINUED: #b82020;
+$RA_SUCCESS: #008700;
+$RA_WARNING: #fdb81e;
+$RA_ERROR: #df3704;
+
+/*************************Fonts**********************/
+//RA Fonts
+.a-type__button {
+    font-family: Barlow, "Helvetica Neue", sans-serif;
+  	align-items: center;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 500;
+    justify-content: center;
+    letter-spacing: 0.5px;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+            transition: 0.3s ease-out all; 
+       -moz-transition: 0.3s ease-out all; 
+    -webkit-transition: 0.3s ease-out all;
+}
+.a-type__title1 {
+    font-family: Barlow, "Helvetica Neue", sans-serif;
+  	font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 3.5rem;
+}
+
+.a-type__title5 {
+  	font-family: Barlow, "Helvetica Neue", sans-serif;  
+  	font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+  	text-align: center;
+}
+
+.a-type__subTitle1 {
+  	font-family: Barlow, "Helvetica Neue", sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.a-type__subTitle2 {
+    font-family: Barlow, "Helvetica Neue", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;   
+    line-height: 1.75rem;
+}
+
+.a-type__caption {
+    font-family: Barlow, "Helvetica Neue", sans-serif;  
+    font-size: 0.875rem;    
+    line-height: 1.375rem;
+}
+
+//Font Styling
+.redText {
+  color: $RA_RED;
+  text-align: center;
+}
+
+.whiteText {
+  color: $RA_WHITE;
+}
+
+.grayText {
+  color: $RA_TEXT;
+  text-align: center;
+}
+
+.linkText {
+  color: $RA_LINKS;
+  text-decoration: underline;
+}
+
+.rightAlign {
+  text-align: right;
+}
+
+/*******************Backgrounds*****************/
+.RAgradient_redOrange {
+  background-image: url(#{$resources}/Uploaded/backTexture_RARedOrange.svg);
+  background-size: cover;
+}
+
+.RAgradient_whiteGray {
+  background-image: url(#{$resources}/Uploaded/backTexture_WhiteGray.svg);
+  background-size: cover;
+}
+
+/*******************Buttons******************************/
+.whiteOutline {
+    background-color: transparent;
+    border-color: $RA_WHITE;
+    color: $RA_WHITE;
+    fill: $RA_WHITE;
+}
+
+.redOutline {
+    background-color: transparent;
+    border-color: $RA_RED;
+    color: $RA_RED;
+    fill: $RA_RED;
+}
+
+.redSolid {
+    background-color: $RA_RED;
+    border-color: $RA_RED;
+}
+
+.RAlogo {
+  height: 14vmin;
+  width: auto;
+}
+
+.home_button {
+  background: transparent;
+  height: 11vmin;
+  width: auto;
+}
+
+.menu_button {
+  background: transparent;
+  height: 13vmin;
+  width: auto;
+}
+
+.close_button {
+  background: transparent;
+  height: 8vmin;
+  width: auto;
+}
+
+.close_button2 {
+  background: transparent;
+  height: 7vmin;
+  width: auto;
+}
+
+.twxChalkIcon {
+  	background: url(#{$resources}/Uploaded/support_gray.svg);
+	background-size: 100%;
+  	background-repeat: no-repeat;
+  	border: none;
+	height: 10vmin;
+	width: 10vmin;
+}
+
+.controls_button {
+  background: transparent;
+  height: 11vmin;
+  width: auto;
+}
+
+.checkbox input:checked:before {
+  background: $RA_RED;
+  border-color: $RA_RED;
+}
+
+.check {
+  background: $RA_RED;
+  border-color: $RA_RED;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.gray {
+  filter: grayscale(1);
+}
+/*************************Layout**********************/
+.a-button {
+    align-items: center;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    padding: 6px 25px;
+            transition: 0.3s ease-out all; 
+       -moz-transition: 0.3s ease-out all; 
+    -webkit-transition: 0.3s ease-out all;
+}
+
+.headerbar {
+  height: 14vmin;
+}
+
+.header_logocolumn {
+  flex: 0 0 55vw; 
+}
+
+.header_column {
+  flex: 0 0 15vw; 
+}
+
+.popup_menu {
+  width: fit-content;
+  top: 14vmin;
+  right: 0px;
+}
+
+.menu_cell {
+  padding-bottom: 5px;
+  border-bottom: 2px solid $RA_LIGHT_GREY;
+}
+
+.popup_controls {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  width: 47vw;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.popup_steps {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 10vmin;
+  top: 19vmin;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.popup_refresh {
+  background-color: transparent;
+  width: 100%;
+  height: 10vmin;
+  top: 19vmin;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.popup_right {
+  width: 62vw;
+  top: 35vmin;
+  right: 0px;
+  border-radius: 4px;
+}
+
+.popup_userEntry {
+  width: 86vw;
+  height: auto;
+  border-radius: 4px;
+  margin-top: 14px;
+}
+
+.popup_steps {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 10vmin;
+  top: 19vmin;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0px;
+  width: 100%;
+  height: 22vmin;
+}
+
+//Adjust size/location based on device
+@media screen and (min-height: 700px) and (min-width: 500px) {
+  .RAlogo {
+    height: 10vmin;
+  }
+  .home_button {
+    height: 7vmin;
+  }
+  .menu_button {
+    height: 9vmin;
+  }
+  .twxChalkIcon {
+    height: 6vmin;
+    width: 6vmin;
+  }
+  .headerbar {
+    height: 10vmin;
+  }
+  .popup_menu {
+    top: 10vmin;
+  }
+  .popup_right {
+    top: 21vmin;
+  }
+  .popup_steps {
+    height: 6vmin;
+    top: 13vmin;
+  }
+  .popup_refresh {
+    height: 6vmin;
+    top: 13vmin;
+  }
+  .controls_button {
+    height: 7vmin;
+  }
+  .close_button {
+    width: 5.5vmin;
+  }
+  .close_button2 {
+  height: 4.5vmin;
+}
+  .popup_userEntry {
+    width: 62vw;
+  }
+  .footer {
+    height: 7vmin;
+  }
+}
+@media screen and (min-width: 500px) {
+  .header_logocolumn {
+    flex: 0 0 75vw;
+  }
+  .header_column {
+    flex: 0 0 8vw;
+  }
+  .popup_controls {
+    width: 25vw;
+  }
+  .popup_right {
+    width: 40vw;
+  }
+}
+@media (orientation: portrait) and (max-height: 900px) {
+  .popup_steps {
+    height: 20vmin;
+  	top: 24vmin;
+  }
+  .popup_refresh {
+   	height: 20vmin;
+  	top: 24vmin;
+  }
+}
+@media (orientation: landscape) and (max-height: 500px) {
+  .footer {
+    height: 15vmin;
+  }
+}
