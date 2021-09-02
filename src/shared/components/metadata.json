@@ -2877,6 +2877,32 @@
         "twx-text-input": 1,
         "twx-checkbox": 1
       }
+    },
+    {
+      "timestamp": "2021-08-25T18:35:23.930Z",
+      "action": "LATEST_SAVE",
+      "usage": {
+        "twx-view": 4,
+        "twx-gridlayout": 14,
+        "twx-row": 30,
+        "twx-col": 45,
+        "twx-image2": 13,
+        "twx-label": 21,
+        "twx-button": 6,
+        "twx-dt-view": 2,
+        "twx-dt-model": 2,
+        "twx-dt-target-spatial": 2,
+        "twx-dt-image": 6,
+        "twx-tml-text": 2,
+        "twx-dt-label": 4,
+        "twx-overlay": 2,
+        "twx-overlay-container": 6,
+        "twx-chalk": 2,
+        "twx-overlay-body": 2,
+        "twx-popup": 9,
+        "twx-text-input": 1,
+        "twx-checkbox": 1
+      }
     }
   ]
 }

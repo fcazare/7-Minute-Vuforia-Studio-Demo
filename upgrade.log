@@ -186,3 +186,28 @@
 [2021-03-31T16:21:26.851Z] debug: [twx-studio:upgrade:DemoTemplateProject] buildApp
 [2021-03-31T16:21:27.347Z] debug: [twx-studio:upgrade:DemoTemplateProject] END buildApp
 [2021-03-31T16:21:27.347Z] debug: [twx-studio:upgrade:DemoTemplateProject] Build succeeded.
+[2021-08-25T18:33:22.577Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] Begin upgrade of project
+[2021-08-25T18:33:22.578Z] info: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] Upgrading project
+[2021-08-25T18:33:22.580Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] Make sure there are not any stale files lying around
+[2021-08-25T18:33:22.580Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] Removing 
+[2021-08-25T18:33:22.585Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] Removing 
+[2021-08-25T18:33:22.713Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] Removing 
+[2021-08-25T18:33:22.740Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] Removing 
+[2021-08-25T18:33:22.759Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] Removing 
+[2021-08-25T18:33:22.763Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] Copying /src/**/* to project, overwrite=false
+[2021-08-25T18:33:22.764Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2021-08-25T18:33:22.822Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] Copy of project files complete
+[2021-08-25T18:33:22.822Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] Updating version to 
+[2021-08-25T18:33:22.822Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] onupgrade sucessful, now build the project
+[2021-08-25T18:33:22.822Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] BEGIN buildApp
+[2021-08-25T18:33:22.822Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] write settings
+[2021-08-25T18:33:22.823Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] copy runtime extensions
+[2021-08-25T18:33:22.964Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] packageThemeSet
+[2021-08-25T18:33:23.966Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] onBuild
+[2021-08-25T18:33:23.966Z] info: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] Building ves-ar-extension app:
+[2021-08-25T18:33:23.982Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] pathDir
+[2021-08-25T18:33:23.982Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] scaffoldDir
+[2021-08-25T18:33:23.982Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] copySrc
+[2021-08-25T18:33:24.116Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] buildApp
+[2021-08-25T18:33:24.470Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] END buildApp
+[2021-08-25T18:33:24.470Z] debug: [twx-studio:upgrade:7-Minute-Vuforia-Studio-Demo] Build succeeded.

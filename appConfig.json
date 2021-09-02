@@ -1,9 +1,9 @@
 {
-  "name": "DemoTemplateProject",
+  "name": "7-Minute-Vuforia-Studio-Demo",
   "projectType": "AR",
   "viewType": "ar",
-  "fileName": "DemoTemplateProject",
-  "thingworxServer": "https://dm8qmpuw.studio-trial.thingworx.io",
+  "fileName": "7-Minute-Vuforia-Studio-Demo",
+  "thingworxServer": "http://affinity-xr-demo.southcentralus.cloudapp.azure.com:2019",
   "viewTemplateFileName": "home-ar.json",
   "state": {
     "orientation": "landscape"
@@ -71,5 +71,5 @@
   "fontRuntimeDir": "../fonts",
   "fontDesigntimeDir": "../dist/fonts",
   "theme": "twx-light",
-  "version": "1.55.1934"
+  "version": "1.55.2047"
 }
